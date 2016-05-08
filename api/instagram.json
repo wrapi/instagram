@@ -1,0 +1,106 @@
+{
+	"users.self": {
+		"method": "GET",
+		"path": "users/self"
+	},
+	"users.get": {
+		"method": "GET",
+		"path": "users/:user_id"
+	},
+	"users.media.recent.self": {
+		"method": "GET",
+		"path": "users/self/media/recent"
+	},
+	"users.media.recent": {
+		"method": "GET",
+		"path": "users/:user_id/media/recent"
+	},
+	"users.feed.liked": {
+		"method": "GET",
+		"path": "users/self/media/liked"
+	},
+	"users.search": {
+		"method": "GET",
+		"path": "users/search"
+	},
+	"users.follows": {
+		"method": "GET",
+		"path": "users/self/follows"
+	},
+	"users.followed.by": {
+		"method": "GET",
+		"path": "users/self/followed-by"
+	},
+	"incoming.requests": {
+		"method": "GET",
+		"path": "users/self/requested-by"
+	},
+	"relationship.get": {
+		"method": "GET",
+		"path": "users/:user_id/relationship"
+	},
+	"relationship.post": {
+		"method": "POST",
+		"path": "users/:user_id/relationship"
+	},
+	"media.get": {
+		"method": "GET",
+		"path": "media/:media_id"
+	},
+	"media.by.shortcode": {
+		"method": "GET",
+		"path": "media/shortcode/:shortcode"
+	},
+	"media.search": {
+		"method": "GET",
+		"path": "media/search"
+	},
+	"media.comments": {
+		"method": "GET",
+		"path": "media/:media_id/comments"
+	},
+	"media.comments.post": {
+		"method": "POST",
+		"path": "media/:media_id/comments"
+	},
+	"media.comments.delete": {
+		"method": "DEL",
+		"path": "media/:media_id/comments/:comment_id"
+	},
+	"media.likes": {
+		"method": "GET",
+		"path": "media/:media_id/likes"
+	},
+	"likes.post": {
+		"method": "POST",
+		"path": "media/:media_id/likes"
+	},
+	"likes.delete": {
+		"method": "DEL",
+		"path": "media/:media_id/likes"
+	},
+	"tags.get": {
+		"method": "GET",
+		"path": "tags/:tag_name"
+	},
+	"tags.media.recent": {
+		"method": "GET",
+		"path": "tags/:tag_name/media/recent"
+	},
+	"tags.search": {
+		"method": "GET",
+		"path": "tags/search"
+	},
+	"locations.get": {
+		"method": "GET",
+		"path": "locations/:location_id"
+	},
+	"locations.media.recent": {
+		"method": "GET",
+		"path": "locations/:location_id/media/recent"
+	},
+	"locations.search": {
+		"method": "GET",
+		"path": "locations/search"
+	}
+}

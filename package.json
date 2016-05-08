@@ -1,0 +1,44 @@
+{
+  "name": "instagram-wrapi",
+  "version": "0.1.0",
+  "description": "Wrapper for Instagram API",
+  "homepage": "https://github.com/wrapi",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wrapi/instagram.git"
+  },
+  "keywords": [
+    "instagram",
+    "wrapi",
+    "REST",
+    "API",
+    "api wrapper",
+    "instagram-api",
+    "instagram-web-api",
+    "instagram wrapper"
+  ],
+  "author": "wrapi",
+  "contributors": [
+    "N. Palani Kumanan"
+  ],
+  "license": "MIT",
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org"
+  },
+  "bugs": {
+    "url": "https://github.com/wrapi/instagram/issues"
+  },
+  "dependencies": {
+    "wrapi": "^0.1.7"
+  },
+  "engines": {
+    "node": ">= 0.10.0"
+  },
+  "devDependencies": {
+    "async": "^2.0.0-rc.4",
+    "cheerio": "^0.19.0",
+    "request": "^2.67.0"
+  }
+}
