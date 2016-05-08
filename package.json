@@ -1,5 +1,5 @@
 {
-  "name": "instagram-wrapi",
+  "name": "@wrapi/instagram",
   "version": "0.1.0",
   "description": "Wrapper for Instagram API",
   "homepage": "https://github.com/wrapi",

@@ -5,10 +5,10 @@ Client interface for accessing [Instagram API](https://www.instagram.com/develop
 
 ## Installation
 
-Install via [npm](https://www.npmjs.org/package/instagram-wrapi)
+Install via [npm](https://www.npmjs.org/package/@wrapi/instagram)
 
 ```bash
-npm install instagram-wrapi --save
+npm install @wrapi/instagram --save
 ```
 
 ## Usage
@@ -16,7 +16,7 @@ npm install instagram-wrapi --save
 Create a client object to connect to Instagram API [endpoints](https://www.instagram.com/developer/endpoints/).
 
 ```JS
-var instagramWrapi = require('instagram-wrapi');
+var instagramWrapi = require('@wrapi/instagram');
 
 var client = new instagramWrapi(INSTAGRAM_ACCESS_TOKEN);
 
