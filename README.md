@@ -2,6 +2,8 @@
 
 Client interface for accessing [Instagram API](https://www.instagram.com/developer/).
 
+[![NPM version](https://img.shields.io/npm/v/instagram-wrapi.svg?style=flat)](https://www.npmjs.org/package/instagram-wrapi)
+
 
 ## Installation
 
